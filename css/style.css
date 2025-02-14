@@ -823,7 +823,7 @@ body {
 .delivery__item {
   border: 3px solid var(--secondary-01);
   border-radius: .625rem;
-  padding: .8125rem .5rem;
+  padding: .8125rem .4375rem;
   background-color: var(--main-01);
   text-align: center;
   line-height: 120%;
@@ -1342,12 +1342,14 @@ body {
     margin-bottom: 1rem
   }
   .advantages {
+    background: var(--gradient-01);
     padding-bottom: 1.25rem
   }
   .advantages__item {
     max-width: none
   }
   .video-review {
+    background: var(--gradient-02);
     padding-bottom: 1.25rem
   }
   .video-review__body {
@@ -1359,6 +1361,7 @@ body {
     max-width: none
   }
   .delivery {
+    background: var(--gradient-01);
     padding-bottom: 1.25rem
   }
   .delivery__body {
@@ -1400,9 +1403,11 @@ body {
     display: none
   }
   .reviews {
+    background: var(--gradient-02);
     padding-bottom: 1.25rem
   }
   .order {
+    background: var(--gradient-01);
     padding-bottom: 1.25rem
   }
   .order__title {
